@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+header {
+  box-shadow: none !important;
+  height: 85px;
+  justify-content: center;
+  @media only screen and (max-width: 768px) {
+    margin-top: 20px;
+  }
+  .header-icon {
+    @media only screen and (max-width: 768px) {
+      text-align: center;
+    }
+  }
+  .header-container {
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    .MuiTypography-root {
+      font-family: "Poppins", sans-serif;
+    }
+    .MuiTypography-h6 {
+      font-size: 16px;
+      color: #1a1b1e;
+    }
+    .user-dropdown {
+      box-shadow: 0px 5px 5px #0000000d;
+      border: 1px solid #4a4ed4;
+      border-radius: 24px;
+      background: #ffffff;
+      width: 71px;
+      height: 42px;
+      svg {
+        color: #4a4ed4;
+      }
+    }
+    .hamberger {
+      display: none;
+    }
+    @media only screen and (max-width: 720px) {
+      .hamberger {
+        display: block;
+      }
+    }
+  }
+}
+.menulist-dropdown {
+  .MuiTypography-root {
+    color: #1a1b1e;
+  }
+  .MuiPaper-root {
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #0000001a;
+    li {
+      gap: 12px;
+    }
+  }
+}
